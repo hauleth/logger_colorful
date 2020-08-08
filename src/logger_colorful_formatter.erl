@@ -94,9 +94,9 @@ try_callback_call(Module, Function, Args, DefRet) ->
     catch
         error:undef:S ->
             case S of
-                [{Module,Function,Args,_}|_] ->
+                [{Module, Function, Args, _}|_] ->
                     DefRet;
                 _ ->
-                    erlang:raise(error,undef,S)
+                    erlang:raise(error, undef, S)
             end
     end.

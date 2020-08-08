@@ -1,6 +1,6 @@
 {application, logger_colorful,
- [{description, "An OTP library"},
-  {vsn, "0.1.0"},
+ [{description, "Colorful logger formatter wrapper"},
+  {vsn, git},
   {registered, []},
   {applications,
    [kernel,
@@ -10,5 +10,5 @@
   {modules, []},
 
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, [{"GitHub", "https://github.com/hauleth/logger_colorful"}]}
  ]}.
